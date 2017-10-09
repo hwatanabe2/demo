@@ -1,14 +1,60 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  
+  "Token":"abcdef123456",
+  "Profile":[
+    {
+      "_id":"1",
+      "EmployeeId":"12",
+      "FirstName":"person1",
+      "MiddleName":"",
+      "LastName":"",
+      "RoleId":"20",
+      "RoleName":"Employee",
+      "DepartmentId":"dep1",
+      "DepartmentName":"dep 1",
+      "Email":"person1@op.com",
+      "Password":"password",
+      "Designation":"designation",
+      "ManagerId":"123456",
+      "ManagerName":"Manaeger Name",
+      "Projects":[
+        {
+          "_id":"1",
+          "ProjectId":"1",
+          "ProjectName":"Test Project",
+          "ProjectStartDate":"9/29/2017",
+          "ProjectEndDate":"11/25/2017",
+          "ProjectDetails":"Test porject.",
+          "IsActive":true,
+          "CreatedOn":"9/29/2017",
+          "CreatedBy":"person1",
+          "ModifiedOn":"9/29/2017",
+          "ModifiedBy":"person1"
+        }
+        ],
+      "EmploymentType":"non-exempt",
+      "Token":"abcdef123456",
+      "ExpiredOn":"10/6/2017",
+      "IsActive": true,
+      "CreatedOn":"10/1/2017",
+      "CreatedBy":"person1",
+      "ModifiedOn":"10/1/2017",
+      "ModifiedBy":"person1"
+    }
+    ],
+  "Projects":[
+    {
+      "_id":"1",
+      "ProjectId":"1",
+      "ProjectName":"Test Project",
+      "ProjectStartDate":"9/29/2017",
+      "ProjectEndDate":"11/25/2017",
+      "ProjectDetails":"Test porject.",
+      "IsActive":true,
+      "CreatedOn":"9/29/2017",
+      "CreatedBy":"person1",
+      "ModifiedOn":"9/29/2017",
+      "ModifiedBy":"person1"
+    }
+    ]
 }
